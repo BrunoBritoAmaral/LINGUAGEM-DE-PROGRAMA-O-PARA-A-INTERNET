@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #eef1f5;
+  color: #222;
+}
+
+.container {
+  max-width: 520px;
+  margin: 48px auto;
+  padding: 24px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  margin-top: 0;
+  text-align: center;
+  color: #2c3e50;
+}
+
+.formulario {
+  display: flex;
+  gap: 8px;
+}
+
+.formulario input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.formulario button {
+  padding: 10px 16px;
+  background: #3b82f6;
+  color: #fff;
+}
+
+.formulario button:hover {
+  background: #2563eb;
+}
+
+.filtros {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: 20px 0;
+}
+
+.filtros button {
+  padding: 6px 14px;
+  background: #e5e7eb;
+}
+
+.filtros button.ativo {
+  background: #2c3e50;
+  color: #fff;
+}
+
+.lista {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tarefa {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.tarefa label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.tarefa.concluida span {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.remover {
+  background: transparent;
+  color: #e74c3c;
+  font-size: 16px;
+}
+
+.vazio,
+.resumo {
+  text-align: center;
+  color: #777;
+}
+
+.resumo {
+  margin-top: 16px;
+  font-size: 13px;
+}
