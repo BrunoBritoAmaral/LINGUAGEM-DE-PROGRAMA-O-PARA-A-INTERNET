@@ -1,6 +1,7 @@
 # Gerenciador de Tarefas (React)
 
 Aluno: Bruno Eduardo Brito Amaral
+RA: 5101493-2
 
 Aplicação React para adicionar tarefas, marcar como concluídas e filtrar por status (Todas, Concluídas, Pendentes). O estado global é gerenciado com `useContext` + `useReducer`.
 
